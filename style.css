@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+.kotak {
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid #555;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    width: 70%;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.tombol-hapus {
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.tombol-hapus {
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 3px 8px;
+}
+
+.tombol-edit {
+    background-color: orange;
+    color: black;
+    border: none;
+    margin-left: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 3px 8px;
+}
