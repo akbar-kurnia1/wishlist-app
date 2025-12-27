@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="kotak">
-        <h2>Daftar Keinginan (Wishlist)</h2>
-        <input type="text" id="inputan" placeholder="Ketik barang...">
-        <button onclick="tambah()">Tambah</button>
-        <hr>
+    <div class="container">
+        <header>
+            <h2>Daftar Keinginan (Wishlist)</h2>
+        </header>
+        
+        <div class="input-section">
+            <input type="text" id="inputan" placeholder="Ketik nama barang...">
+            <button onclick="tambah()" id="btn-tambah">Tambah</button>
+        </div>
+
         <ul id="tempat_list">
             </ul>
     </div>
